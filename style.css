@@ -1,1 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #b2d2ee; 
+    color: #000000; 
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2e9b5d; 
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.6; 
+    margin-bottom: 50px;
+}
+
+.conteudo {
+    width: 55%;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.imagem {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.invertido .imagem {
+    justify-content: flex-start; 
+}
+
+.imagem img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(127, 22, 212);
+    max-width: 100%;
+    height: auto;
+}
 
